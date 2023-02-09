@@ -1,0 +1,64 @@
+body {
+  text-align: center;
+  background-color: rgb(50,50,100);
+    color: rgb(240,240,240);
+  font-size: 18px;
+  font-family: 'Tahoma';
+}
+h1 {
+  padding-top: 40px;
+}
+form {
+  padding: 10px;
+}
+#container {
+  text-align: left;
+  width: 80%;
+  margin: auto;
+  background-color: rgba(25,25,50, .8);
+  padding: 0 20px 20px 20px;
+}
+input, select, textarea {
+  width: 100%;
+  height: 2em;
+  background-color: rgb(50,50,100);
+}
+label {
+  display: block;
+  margin: 0.5em 0;
+}
+input::placeholder {
+  color: rgb(180,180,180);
+}
+
+
+.inline {
+  width: unset;
+  margin: 0.25em 0.5em 0.25em 0;
+  vertical-align: middle;
+}
+textarea {
+  height: 7em;
+      color: rgb(240,240,240);
+
+}
+select, textarea::placeholder{
+  color: rgb(180,180,180);
+}
+fieldset {
+  border: none;
+  padding: 1rem 0;
+  border-bottom: 3px solid #3b3b4f;
+}
+fieldset:last-of-type {
+  border-bottom: none;
+} 
+
+input[type="submit"] {
+  width: 30%;
+  height: 2em;
+  margin: 1em auto;
+  background-color: rgb(75,75,75);
+  color: white;
+  display: block;
+}

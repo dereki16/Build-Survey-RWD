@@ -1,0 +1,39 @@
+<h1 id="title">Graduate Survey Form</h1>
+<p id="description">Thanks for taking the time to fill out this form.</p>
+<div id="container">
+<form id="survey-form">
+  <fieldset>
+  <label id="name-label">Name</label>
+  <input id="name" type="text" placeholder="Name.."  required><br>
+  <label id="email-label">Email</label>
+  <input id="email" type="email" placeholder="Email..." required>
+  <label id="number-label">Age (optional)</label>
+  <input id="number" type="number" placeholder="Number..."  min=13 max=50>
+  <label id="experience-label">How many years of work experience do you have?</label>
+  <select id="dropdown" type="dropdown">
+    <option>0</option>
+    <option>&#60 1</option>
+    <option>1+</option>
+  </select>
+  </fieldset>
+  <fieldset>
+  <label for="radio-label">How confident are you in getting a job?</label>
+  <input class="inline" id="confident-radio" type="radio" name="group1" value="confident">Confident<br>
+  <input class="inline" id="unsure-radio" type="radio" name="group1" value="unsure">Unsure<br>
+  <input class="inline" id="already-radio" type="radio" name="group1" value="already">Already have a job</input>
+  </fieldset>
+  <fieldset>
+  <label id="pitch-label">Provide your elevator pitch</label>
+  <textarea id="description" type="textarea" placeholder="Provide your elevator pitch here..."></textarea>
+  <label id="quality-label">Choose the qualities that best describe you</label>
+  <input class="inline" id="check-1" type="checkbox" value="worker">Hard-working<br>
+  <input class="inline" id="check-1" type="checkbox" value="talent">Talented<br>
+  <input class="inline" id="check-1" type="checkbox" value="funny">Funny<br>
+  <input class="inline" id="check-1" type="checkbox" value="serious">Serious<br>
+  <input class="inline" id="check-1" type="checkbox" value="smart">Smart<br>
+</fieldset>
+  <input id="submit" type="submit" value="Submit"></input>
+</form>
+</div>
+
+<link rel="stylesheet" href="style.css">
